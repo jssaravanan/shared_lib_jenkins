@@ -8,5 +8,5 @@ def call(String name){
 }*/
 
 def call(Map config = [:]){
-	sh "echo Welcome $config.name to $config.subject"
+	sh "echo Welcome ${config.name} to ${config.subject}"
 }
